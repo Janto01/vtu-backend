@@ -1,3 +1,5 @@
+import logging
+logging.basicConfig(level=logging.DEBUG)
 from fastapi import FastAPI, Request
 from routers import airtime, data, cabletv, electricity, betting, wallet, webhook
 import telegram
